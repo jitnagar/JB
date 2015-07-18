@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="From  "
+        android:id="@+id/autoCompleteTextView"
+        android:layout_marginBottom="63dp"
+        android:layout_above="@+id/autoCompleteTextView2"
+        android:layout_centerHorizontal="true"
+        />
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To"
+        android:id="@+id/autoCompleteTextView2"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/autoCompleteTextView"
+        android:layout_alignStart="@+id/autoCompleteTextView"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:id="@+id/button"
+        android:layout_below="@+id/autoCompleteTextView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp" />
+</RelativeLayout>
